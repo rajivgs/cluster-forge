@@ -1,6 +1,6 @@
 clusterForge:
   repoUrl: "https://github.com/rajivgs/cluster-forge.git"
-  targetRevision: v0.0.3 # cluster-forge version git tag
+  targetRevision: v0.0.7 # cluster-forge version git tag
   valuesFile: values.yaml
 # source helm values file from separate git repo
 externalValues:
