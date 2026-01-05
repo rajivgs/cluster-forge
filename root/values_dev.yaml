@@ -1,5 +1,5 @@
 clusterForge:
-  repoUrl: "https://github.com/silogen/cluster-forge.git"
+  repoUrl: "https://github.com/rajivgs/cluster-forge.git"
   targetRevision: # feature-branch name to be provided by developer
   valuesFile: values_dev.yaml
 
