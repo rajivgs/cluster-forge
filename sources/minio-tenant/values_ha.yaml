@@ -7,7 +7,7 @@ tenant:
     - servers: 4
       name: pool-0
       volumesPerServer: 1
-      size: 500Gi
+      size: 20Gi
       storageClassName: direct
   buckets:
     - name: default-bucket

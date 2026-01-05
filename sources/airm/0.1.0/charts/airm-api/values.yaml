@@ -52,10 +52,10 @@ airm:
           cpu: "1"
           memory: 512Mi
       storage:
-        size: 50Gi
+        size: 10Gi
         storageClass: default
       walStorage:
-        size: 50Gi
+        size: 10Gi
         storageClass: default
 
   rabbitmqBackup:
@@ -69,7 +69,7 @@ airm:
         cpu: 250m
         memory: 256Mi
     persistence:
-      storage: 20Gi
+      storage: 15Gi
       storageClassName: default
     cronJob:
       resources:

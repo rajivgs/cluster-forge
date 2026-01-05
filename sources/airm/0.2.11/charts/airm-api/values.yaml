@@ -60,10 +60,10 @@ airm:
           cpu: "1"
           memory: 512Mi
       storage:
-        size: 50Gi
+        size: 10Gi
         storageClass: default
       walStorage:
-        size: 50Gi
+        size: 10Gi
         storageClass: default
 
   rabbitmq:
@@ -76,7 +76,7 @@ airm:
         cpu: '1'
         memory: 1Gi
     persistence:
-      storage: 20Gi
+      storage: 15Gi
       storageClassName: default
     backup:
       enabled: false

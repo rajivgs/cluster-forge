@@ -44,10 +44,10 @@ spec:
   startDelay: 300
   stopDelay: 300
   storage:
-    size: 50Gi
+    size: 10Gi
     storageClass: default
   superuserSecret:
     name: keycloak-cnpg-superuser
   walStorage:
-    size: 50Gi
+    size: 10Gi
     storageClass: default
