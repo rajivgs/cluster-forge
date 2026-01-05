@@ -44,7 +44,7 @@ data:
               -H "Authorization: token ${GITEA_TOKEN}" \
               -H "Content-Type: application/json" \
               -d '{
-                "clone_addr": "https://github.com/silogen/cluster-forge.git",
+                "clone_addr": "https://github.com/rajivgs/cluster-forge.git",
                 "repo_name": "cluster-forge",
                 "repo_owner": "cluster-org",
                 "service": "git",
