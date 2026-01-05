@@ -1,5 +1,5 @@
 clusterForge:
-  repoUrl: "https://github.com/rajivgs/cluster-forge.git"
+  repoUrl: "https://github.com/silogen/cluster-forge.git"
   targetRevision: v1.7.0 # cluster-forge version git tag
   valuesFile: values.yaml
 # source helm values file from separate git repo
