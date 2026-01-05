@@ -20,15 +20,15 @@ jobs:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Calculate Next Version
-        id: calculate_version
-        uses: ietf-tools/semver-action@v1
-        with:
-          branch: ${{ github.ref_name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          maxTagsToFetch: 100
-          skipInvalidTags: true
-          patchAll: true
+      # - name: Calculate Next Version
+      #   id: calculate_version
+      #   uses: ietf-tools/semver-action@v1
+      #   with:
+      #     branch: ${{ github.ref_name }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     maxTagsToFetch: 100
+      #     skipInvalidTags: true
+      #     patchAll: true
 
       - name: Set Next Version
         id: semver
